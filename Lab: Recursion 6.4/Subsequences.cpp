@@ -15,24 +15,16 @@ bool Subsequences::isSubsequence(string sub){
     }else if(sub[i] == word[z]){
         i++;
         z++;
-        x = isSubsequence(sub);
-        return x;
+        return isSubsequence(sub);
     }else{
         z++;
-        x = isSubsequence(sub);
-        return x;
+        return isSubsequence(sub);
     }
     return true;
 }
 
 ostream & operator<< (ostream& os, Subsequences& s){
     os << s.word;
-    if(s.x){
-        os << " is a substring";
-    }
-    if(!s.x){
-        os << " is a not substring";
-    }
     
     return os;
 }
