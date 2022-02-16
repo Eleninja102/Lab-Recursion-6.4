@@ -15,6 +15,9 @@ using namespace std;
 class Subsequences{
 private:
     string word;
+    int i = 0;
+    int z = 0;
+    bool x;
     
 public:
     Subsequences(string word):word(word){}
@@ -24,7 +27,3 @@ public:
 
 #endif /* Subsequences_hpp */
 
-
-bool Subsequences::isSubsequence(string sub){
-    return false;
-}
