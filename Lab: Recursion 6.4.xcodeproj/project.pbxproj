@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D38A3CE27BD8671002E2C5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D38A3CD27BD8671002E2C5E /* main.cpp */; };
+		1D38A3D527BD8732002E2C5E /* SubsequenceTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D38A3D427BD8732002E2C5E /* SubsequenceTester.cpp */; };
+		1D38A3D827BD8751002E2C5E /* Subsequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D38A3D627BD8751002E2C5E /* Subsequences.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		1D38A3CA27BD8671002E2C5E /* Lab: Recursion 6.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab: Recursion 6.4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D38A3CD27BD8671002E2C5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D38A3D427BD8732002E2C5E /* SubsequenceTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubsequenceTester.cpp; sourceTree = "<group>"; };
+		1D38A3D627BD8751002E2C5E /* Subsequences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Subsequences.cpp; sourceTree = "<group>"; };
+		1D38A3D727BD8751002E2C5E /* Subsequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subsequences.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				1D38A3CD27BD8671002E2C5E /* main.cpp */,
+				1D38A3D427BD8732002E2C5E /* SubsequenceTester.cpp */,
+				1D38A3D627BD8751002E2C5E /* Subsequences.cpp */,
+				1D38A3D727BD8751002E2C5E /* Subsequences.hpp */,
 			);
 			path = "Lab: Recursion 6.4";
 			sourceTree = "<group>";
@@ -119,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D38A3D527BD8732002E2C5E /* SubsequenceTester.cpp in Sources */,
+				1D38A3D827BD8751002E2C5E /* Subsequences.cpp in Sources */,
 				1D38A3CE27BD8671002E2C5E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
